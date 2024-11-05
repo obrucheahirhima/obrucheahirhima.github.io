@@ -23,7 +23,7 @@ body {
 
 header h1 {
   display: flex
-  
+  margin top: 10px
   width: 100%;
   padding: 10px;
   background-color: #cec8ef;
