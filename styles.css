@@ -2,7 +2,7 @@
 body {
   font-family: 'Inter', sans-serif;
    font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 700;
   background-color: #cec8ef; /* Replace with your exact purple shade */
   color: #000000;
   display: flex;
@@ -63,7 +63,7 @@ main {
 }
 
 main h2 {
-  font-size:1.0em;
+  font-size:1.5em;
   color: #000000;
   font-weight: 700;
   
