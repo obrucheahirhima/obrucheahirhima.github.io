@@ -70,7 +70,7 @@ main h2 {
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center;    /* Centers vertically */
-  height: 100vh;          /* Full viewport height for centering vertically */
+ /* height: 100vh;          /* Full viewport height for centering vertically */
   text-align: center; 
 
   
@@ -83,7 +83,7 @@ main p {
 
   display: flex;
   justify-content: center; /* Centers horizontally */
-  height: 100vh;          /* Full viewport height for centering vertically */
+ /* height: 100vh;          /* Full viewport height for centering vertically */
   text-align: center;
    font-weight: 500; 
 }
