@@ -64,15 +64,27 @@ main h2 {
   font-size:4.5em;
   color: #000000;
   font-weight: 1000;
-  align-items: center;
+  
   margin-bottom: 20px;
+  
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+  height: 100vh;          /* Full viewport height for centering vertically */
+  text-align: center; 
+
+  
 }
 
 main p {
   font-size: 2.0em;
-    align-items: center;
-
+  align-items: center;
   color: #000000;
+
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  height: 100vh;          /* Full viewport height for centering vertically */
+  text-align: center; 
 }
 
 /* Footer styling */
