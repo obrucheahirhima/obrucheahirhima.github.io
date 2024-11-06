@@ -1,7 +1,7 @@
 /* Font stack to closely mimic Apple's SF Pro Display */
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #ffffff;
+  background-color: #cec8ef; /* Replace with your exact purple shade */
   color: #000000;
   display: flex;
   flex-direction: column;
