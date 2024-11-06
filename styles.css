@@ -64,13 +64,15 @@ main h2 {
   font-size:4.5em;
   color: #000000;
   font-weight: 1000;
-  align-items: left;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 main p {
-  font-size: 1.1em;
-  color: #555;
+  font-size: 2.0em;
+    align-items: center;
+
+  color: #000000;
 }
 
 /* Footer styling */
