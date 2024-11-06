@@ -61,8 +61,10 @@ main {
 }
 
 main h2 {
-  font-size: 2em;
-  color: #000000.;
+  font-size:4.5em;
+  color: #000000;
+  font-weight: 1000;
+  align-items: left;
   margin-bottom: 20px;
 }
 
