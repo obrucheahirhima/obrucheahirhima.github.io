@@ -84,7 +84,8 @@ main p {
   display: flex;
   justify-content: center; /* Centers horizontally */
   height: 100vh;          /* Full viewport height for centering vertically */
-  text-align: center; 
+  text-align: center;
+   font-weight: 500; 
 }
 
 /* Footer styling */
