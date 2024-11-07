@@ -37,22 +37,19 @@ header h1 {
   
 }
 
-nav {
-  margin-top: 5px;
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
 }
-
-nav a {
-  color:#000000;
+.navbar {
+  display: none;
+}
+.navbar a {
+  display: block;
+  padding: 8px;
   text-decoration: none;
-  margin: 0 15px;
-  font-size: 1.2em;
-  font-weight: 400;
-  transition: color 0.3s ease;
 }
 
-nav a:hover {
-  color: #c8a2c8; /* Slightly lighter shade on hover */
-}
 
 /* Main content styling */
 main {
