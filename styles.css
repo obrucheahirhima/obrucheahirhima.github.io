@@ -40,6 +40,7 @@ header h1 {
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
+  padding-right:50px;
 }
 .navbar {
   display: none;
