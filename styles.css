@@ -40,17 +40,17 @@ header h1 {
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
-  padding-right:50px;
+  padding-left:200px;
 }
 .navbar {
   display: none;
-  padding-right:50px;
+  padding-left:200px;
 }
 .navbar a {
   display: block;
   padding: 8px;
   text-decoration: none;
-  padding-right:50px;
+  padding-left:200px;
 }
 
 
