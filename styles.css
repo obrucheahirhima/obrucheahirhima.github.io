@@ -139,9 +139,26 @@ footer {
   width: 100%;
   text-align: center;
   font-size: small;
-  
 }
 
 footer p {
   padding: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #777;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0077ff; /* You can adjust this to any hover color you like */
 }
