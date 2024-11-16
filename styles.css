@@ -132,7 +132,7 @@ main p {
 /* Footer styling */
 footer {
   margin-bottom: 50px;
-  color: #777;
+  color: #000000;
   font-size: 0.9em;
   position: absolute;
   bottom: 10px;
@@ -160,5 +160,5 @@ footer p {
 }
 
 .social-icons a:hover {
-  color: #0077ff; /* You can adjust this to any hover color you like */
+  color: #000000; /* You can adjust this to any hover color you like */
 }
