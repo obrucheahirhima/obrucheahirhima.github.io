@@ -57,7 +57,7 @@ document.getElementById('subscribe-form').addEventListener('submit', function(ev
 
 // Typing animation for name - runs once on page load
 window.addEventListener('DOMContentLoaded', function() {
-    const name = "Ogheneobruche";
+    const name = "Ogheneobruche.";
     const nameElement = document.getElementById('typing-name');
     let index = 0;
     
