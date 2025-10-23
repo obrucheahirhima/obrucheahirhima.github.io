@@ -68,6 +68,10 @@ main {
   max-width: 800px;
   width: 100%;
   line-height: 1.6;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 main h2 {
