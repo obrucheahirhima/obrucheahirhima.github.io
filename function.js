@@ -54,4 +54,21 @@ document.getElementById('subscribe-form').addEventListener('submit', function(ev
         submitBtn.disabled = false;
         submitBtn.textContent = 'Subscribe';
     });
+
+  // Typing animation for name - runs once on page load
+window.addEventListener('DOMContentLoaded', function() {
+    const name = "Ogheneobruche";
+    const nameElement = document.getElementById('typing-name');
+    let index = 0;
+    
+    function typeNextLetter() {
+        if (index < name.length) {
+            nameElement.textContent += name.charAt(index);
+            index++;
+            setTimeout(typeNextLetter, 150); // 150ms delay between each letter
+        }
+    }
+    
+    typeNextLetter();
+});
 });
