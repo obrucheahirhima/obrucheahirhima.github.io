@@ -40,17 +40,24 @@ header h1 {
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
-  padding-left:1100px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 .navbar {
   display: none;
-  padding-left:1100px;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  background-color: #cec8ef;
+  border-radius: 5px;
+  padding: 10px;
 }
 .navbar a {
   display: block;
-  padding: 8px;
+  padding: 8px 15px;
   text-decoration: none;
-  padding-left:1100px;
+  color: #000000;
 }
 
 
@@ -88,6 +95,11 @@ main p {
  /* height: 100vh;          /* Full viewport height for centering vertically */
   text-align: center;
    font-weight: 500; 
+}
+
+.about-text {
+  font-size: 0.65em !important;
+  font-weight: 400 !important;
 }
 
 .subscription-box {
