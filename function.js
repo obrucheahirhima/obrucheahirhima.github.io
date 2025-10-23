@@ -7,7 +7,6 @@ function toggleNav() {
   }
 }
 
-
 document.getElementById('subscribe-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
@@ -54,8 +53,9 @@ document.getElementById('subscribe-form').addEventListener('submit', function(ev
         submitBtn.disabled = false;
         submitBtn.textContent = 'Subscribe';
     });
+});
 
-  // Typing animation for name - runs once on page load
+// Typing animation for name - runs once on page load
 window.addEventListener('DOMContentLoaded', function() {
     const name = "Ogheneobruche";
     const nameElement = document.getElementById('typing-name');
@@ -70,5 +70,4 @@ window.addEventListener('DOMContentLoaded', function() {
     }
     
     typeNextLetter();
-});
 });
