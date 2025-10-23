@@ -66,6 +66,7 @@ main {
   text-align: center;
   padding: 60px 20px;
   max-width: 800px;
+  width: 100%;
   line-height: 1.6;
 }
 
@@ -100,6 +101,9 @@ main p {
 .about-text {
   font-size: 0.65em !important;
   font-weight: 400 !important;
+  max-width: 100% !important;
+  padding: 0 20px !important;
+  width: 100% !important;
 }
 
 .subscription-box {
