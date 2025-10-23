@@ -21,7 +21,7 @@ document.getElementById('subscribe-form').addEventListener('submit', function(ev
     submitBtn.textContent = 'Subscribing...';
     
     // REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
-    var scriptURL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+    var scriptURL = 'https://script.google.com/macros/s/AKfycbzIekxHzjBDLg_NErvopITi7kdfmfrPOb0CQ-Xb3P9VwFMaWmsDSFE2n-SrFjgsY4Gqsw/exec';
     
     fetch(scriptURL, {
         method: 'POST',
