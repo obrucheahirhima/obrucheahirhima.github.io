@@ -109,29 +109,27 @@ header h1 {
 
 .nav-social-icons {
   display: flex;
-  gap: 15px;
   justify-content: center;
-}
+  align-items: center;
+  gap: 15px; /* match homepage gap */
+  margin-bottom: 5px; /* align vertically */
 
 .nav-social-icons a {
   color: #000000;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.5em; /* match homepage icon size */
   transition: opacity 0.3s ease;
 }
-
 .nav-social-icons a:hover {
   opacity: 0.6;
 }
-
 .nav-copyright {
-  font-size: 0.6em;
+  font-size: 0.75em; /* match footer text size */
   font-weight: 300;
   opacity: 0.7;
-  color: #000000;
   text-align: center;
+  color: #000000;
 }
-
 .nav-social-icons a {
   color: #000000;
   text-decoration: none;
