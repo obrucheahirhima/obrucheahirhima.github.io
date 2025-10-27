@@ -230,14 +230,16 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px 0;
+  padding: 10px 0; /* same padding as homepage */
   text-align: center;
   color: #000000;
   font-size: small;
+  font-weight: 400;
+  z-index: 999;
 }
 
 footer p {
-  padding: 5px 0;
+  margin-top: 5px;
   font-weight: 300;
   opacity: 0.7;
 }
@@ -247,7 +249,7 @@ footer p {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-bottom: 5px; /* changed from margin-top */
+  margin-bottom: 5px; /* balanced with homepage */
 }
 
 
@@ -255,9 +257,9 @@ footer p {
   color: #000000;
   text-decoration: none;
   font-size: 1.5em;
-  transition: color 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #000000;
+  opacity: 0.6;
 }
