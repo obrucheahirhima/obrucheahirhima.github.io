@@ -221,16 +221,19 @@ main p {
 
 /* Footer styling */
 footer {
-  color: #000000;
-  font-size: 0.9em;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
-  font-size: small;
   background-color: #cec8ef;
-  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  text-align: center;
+  color: #000000;
+  font-size: small;
 }
 
 footer p {
@@ -242,9 +245,11 @@ footer p {
 .social-icons {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 15px;
-  margin-top: 10px;
+  margin-bottom: 5px; /* changed from margin-top */
 }
+
 
 .social-icons a {
   color: #000000;
