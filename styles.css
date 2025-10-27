@@ -38,26 +38,45 @@ header h1 {
 }
 
 .menu-icon {
-  font-size: 24px;
+  font-size: 30px;
   cursor: pointer;
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  z-index: 1001;
+  transition: color 0.3s ease;
 }
+
 .navbar {
   display: none;
-  position: absolute;
-  right: 20px;
-  top: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: #cec8ef;
-  border-radius: 5px;
-  padding: 10px;
+  z-index: 1000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
+
+.navbar.active {
+  display: flex;
+}
+
 .navbar a {
-  display: block;
-  padding: 8px 15px;
+  font-size: 2em;
+  font-weight: 600;
   text-decoration: none;
   color: #000000;
+  padding: 15px 30px;
+  transition: opacity 0.3s ease;
+}
+
+.navbar a:hover {
+  opacity: 0.6;
 }
 
 
