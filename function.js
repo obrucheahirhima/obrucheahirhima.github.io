@@ -1,12 +1,7 @@
 function toggleNav() {
   var navbar = document.getElementById("navbar");
-  if (navbar.style.display === "block") {
-    navbar.style.display = "none";
-  } else {
-    navbar.style.display = "block";
-  }
+  navbar.classList.toggle("active");
 }
-
 document.getElementById('subscribe-form').addEventListener('submit', function(event) {
     event.preventDefault();
     
