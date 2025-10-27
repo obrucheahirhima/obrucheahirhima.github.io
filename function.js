@@ -1,6 +1,15 @@
 function toggleNav() {
   var navbar = document.getElementById("navbar");
+  var menuIcon = document.querySelector(".menu-icon");
+  
   navbar.classList.toggle("active");
+  
+  // Change hamburger to X and back
+  if (navbar.classList.contains("active")) {
+    menuIcon.innerHTML = "✕";
+  } else {
+    menuIcon.innerHTML = "☰";
+  }
 }
 document.getElementById('subscribe-form').addEventListener('submit', function(event) {
     event.preventDefault();
