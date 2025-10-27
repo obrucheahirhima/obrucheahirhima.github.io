@@ -1,3 +1,4 @@
+
 /* Font stack to closely mimic Apple's SF Pro Display */
 body {
   font-family: 'Inter', sans-serif;
@@ -57,12 +58,11 @@ header h1 {
   background-color: #cec8ef;
   z-index: 1000;
   flex-direction: column;
-  /* CHANGED: Center items vertically and horizontally */
-  justify-content: center;
-  align-items: center;
-  padding-top: 0; 
-  padding-right: 0;
-  gap: 30px; /* Adjusted spacing for centered layout */
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 100px;
+  padding-right: 50px;
+  gap: 20px;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -96,26 +96,6 @@ header h1 {
 
 .nav-social-icons {
   display: flex
-
-
-/* Styling for the social icons and copyright inside the navigation menu */
-.navbar-footer-content {
-  position: absolute;
-  bottom: 30px; /* Position from the bottom */
-  left: 50%; /* Start at the center of the viewport */
-  transform: translateX(-50%); /* Shift back by half its width for perfect centering */
-  width: 100%;
-  text-align: center;
-  /* Match the style of the page footer text */
-  font-size: 0.9em; 
-}
-
-.navbar-footer-content p {
-  padding: 5px 0;
-  font-weight: 300;
-  opacity: 0.7;
-  font-size: small;
-}
 /* Main content styling */
 main {
   text-align: center;
