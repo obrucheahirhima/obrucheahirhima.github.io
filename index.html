@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,24 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ogheneobruche Ahirhima</title>
   <link rel="stylesheet" href="styles.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <!-- Header section -->
   <header>
     <h1></h1>
     
-
- <nav>
-  <div class="menu-icon" onclick="toggleNav()">☰</div>
-  <div id="navbar" class="navbar">
-    <a href="index.html" onclick="toggleNav()">Home</a>
-    <a href="about.html" onclick="toggleNav()">About</a>
-    <a href="https://github.com/obrucheahirhima" target="_blank">Portfolio</a>
-    <a href="blog.html" onclick="toggleNav()">Blog</a>
-    <a href="services.html" onclick="toggleNav()">Services</a>
-    
-    <div class="nav-social-icons">
+    <nav>
+      <div class="menu-icon" onclick="toggleNav()">☰</div>
+      <div id="navbar" class="navbar">
+        <a href="index.html" onclick="toggleNav()">Home</a>
+        <a href="about.html" onclick="toggleNav()">About</a>
+        <a href="https://github.com/obrucheahirhima" target="_blank">Portfolio</a>
+        <a href="blog.html" onclick="toggleNav()">Blog</a>
+        <a href="services.html" onclick="toggleNav()">Services</a>
+        
+        <div class="nav-social-icons">
+          <a href="mailto:obrucheahirhima@gmail.com" target="_blank" aria-label="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="https://x.com/obrucheahirhima" target="_blank" aria-label="Twitter">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://github.com/obrucheahirhima" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://instagram.com/obrucheahirhima" target="_blank" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://linkedin.com/in/obruche-ahirhima" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Main content -->
+  <main>
+    <h2 id="typing-name"></h2>
+    <p class="about-text">Software Engineer and Solutions Architect focused on designing scalable and secure solutions.</p>
+    <div class="subscription-box">
+      <p></p>
+      <form id="subscribe-form">
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit" id="submit-btn">Subscribe</button>
+      </form>
+      <p id="thank-you-message" style="display: none; color: #000000; font-weight: 300; opacity: 0.7; font-size: small;">Thanks for subscribing!</p>
+      <p id="error-message" style="display: none; color: red;">Something went wrong. Please try again.</p>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="social-icons">
       <a href="mailto:obrucheahirhima@gmail.com" target="_blank" aria-label="Email">
         <i class="fa-regular fa-envelope"></i>
       </a>
@@ -40,51 +76,8 @@
         <i class="fa-brands fa-linkedin"></i>
       </a>
     </div>
-  </div>
-</nav>
-
-  </header>
-
-  <!-- Main content -->
-  <main>
-    <h2 id="typing-name"></h2>
-<p class="about-text">Software Engineer and Solutions Architect focused on designing scalable and secure solutions.</p>
-    <div class="subscription-box">
-    <p></p>
-    <form id="subscribe-form">
-        <input type="email" id="email" placeholder="Enter your email" required>
-        <button type="submit" id="submit-btn">Subscribe</button>
-    </form>
-<p id="thank-you-message" style="display: none; color: #000000; font-weight: 300; opacity: 0.7; font-size: small;">Thanks for subscribing!</p>
-      <p id="error-message" style="display: none; color: red;">Something went wrong. Please try again.</p>
-</div>
-
-  </main>
-
-  
-
-
-  <!-- Footer -->
-<footer>
-  <div class="social-icons">
-    <a href="mailto:obrucheahirhima@gmail.com" target="_blank" aria-label="Email">
-      <i class="fa-regular fa-envelope"></i>
-    </a>
-    <a href="https://x.com/obrucheahirhima" target="_blank" aria-label="Twitter">
-      <i class="fa-brands fa-x-twitter"></i>
-    </a>
-    <a href="https://github.com/obrucheahirhima" target="_blank" aria-label="GitHub">
-      <i class="fa-brands fa-github"></i>
-    </a>
-    <a href="https://instagram.com/obrucheahirhima" target="_blank" aria-label="Instagram">
-      <i class="fa-brands fa-instagram"></i>
-    </a>
-    <a href="https://linkedin.com/in/obruche-ahirhima" target="_blank" aria-label="LinkedIn">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-  </div>
-  <p>&copy; 2024 Ogheneobruche Ahirhima</p>
-</footer>
-<script src="function.js"></script>
+    <p>&copy; 2024 Ogheneobruche Ahirhima</p>
+  </footer>
+  <script src="function.js"></script>
 </body>
 </html>
