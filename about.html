@@ -6,6 +6,73 @@
   <title>About - Ogheneobruche Ahirhima</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <style>
+    .about-layout {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 48px;
+      padding: 40px 5%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .about-image-box {
+      flex: 0 0 420px;
+      width: 420px;
+      height: 580px;
+      background-color: #7B2FBE;
+      border: 3px dashed #c084fc;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-align: center;
+      padding: 24px;
+      box-sizing: border-box;
+      flex-shrink: 0;
+    }
+
+    .about-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .about-content h1 {
+      font-size: 3.5rem;
+      font-weight: 900;
+      margin: 0 0 8px 0;
+      line-height: 1.1;
+    }
+
+    .about-content p {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      margin: 0;
+      color: inherit;
+    }
+
+    @media (max-width: 768px) {
+      .about-layout {
+        flex-direction: column;
+        padding: 24px 5%;
+      }
+      .about-image-box {
+        width: 100%;
+        flex: unset;
+        height: 320px;
+      }
+      .about-content h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -15,8 +82,8 @@
         <a href="index.html" onclick="toggleNav()">Home</a>
         <a href="about.html" onclick="toggleNav()">About</a>
         <a href="https://github.com/obrucheahirhima" target="_blank">Portfolio</a>
-       <a href="services.html" onclick="toggleNav()">Services</a>
-         <a href="blog.html" onclick="toggleNav()">Blog</a>
+        <a href="services.html" onclick="toggleNav()">Services</a>
+        <a href="blog.html" onclick="toggleNav()">Blog</a>
         <div class="nav-footer">
           <div class="nav-social-icons">
             <a href="mailto:obrucheahirhima@gmail.com" target="_blank" aria-label="Email">
@@ -40,12 +107,35 @@
       </div>
     </nav>
   </header>
-  
+
   <main>
-    <h2>About Me</h2>
-    <p class="about-text">Add your about content here...</p>
+    <div class="about-layout">
+      <!-- Purple box replacing image -->
+      <div class="about-image-box">About Me</div>
+
+      <!-- Text content -->
+      <div class="about-content">
+        <h1>Hi there.</h1>
+
+        <p>My name is Ogheneobruche — but you can call me Obruche.</p>
+
+        <p>By day, I work as a Solutions Engineer, helping businesses and enterprises close the gap between where they are and where they need to be — technically speaking. Whether it's fixed internet connectivity, WAN and enterprise networking, campus infrastructure, or mobility and cellular solutions, I'm in the business of making things work and making sure the right deals get across the line.</p>
+
+        <p>On top of that, I'm knee-deep in automating business operations — because efficiency isn't just a buzzword to me, it's a standard.</p>
+
+        <p>There's another side of me still finding its footing — brand marketing. There's something about watching a brand go from zero to mainstream that genuinely excites me. The strategy, the storytelling, the scale. I'm still exploring this space, but something tells me it won't stay a side interest for long.</p>
+
+        <p>Academically, I hold a Bachelor's in Computer Science (Honours) and I'm seriously considering a Master's degree in the coming year — because why stop learning?</p>
+
+        <p>Outside of work, you'll find me reading, writing (still sharpening that blade), and absolutely losing myself in music.</p>
+
+        <p>But if there's one thread running through all of it — the engineering, the marketing curiosity, the random advice I'll give you if you let me — it's this: I love seeing people and things operate at full capacity. Businesses, brands, careers, people. Getting things to their best version is kind of what gets me out of bed.</p>
+
+        <p>That's what fulfills me. Simple as that.</p>
+      </div>
+    </div>
   </main>
-  
+
   <footer>
     <div class="social-icons">
       <a href="mailto:obrucheahirhima@gmail.com" target="_blank" aria-label="Email">
