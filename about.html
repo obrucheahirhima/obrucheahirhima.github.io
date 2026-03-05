@@ -7,69 +7,81 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
   <style>
+    main {
+      display: block !important;
+      text-align: left !important;
+      padding: 40px 5% 100px 5% !important;
+      align-items: unset !important;
+      justify-content: unset !important;
+    }
+
     .about-layout {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 48px;
-      padding: 40px 5%;
-      max-width: 1200px;
-      margin: 0 auto;
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: flex-start !important;
+      gap: 48px !important;
+      max-width: 1100px !important;
+      margin: 0 auto !important;
     }
 
     .about-image-box {
-      flex: 0 0 420px;
-      width: 420px;
-      height: 580px;
-      background-color: #7B2FBE;
-      border: 3px dashed #c084fc;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      text-align: center;
-      padding: 24px;
-      box-sizing: border-box;
-      flex-shrink: 0;
+      flex: 0 0 380px !important;
+      width: 380px !important;
+      min-height: 560px !important;
+      background-color: #7B2FBE !important;
+      border: 3px dashed #c084fc !important;
+      border-radius: 8px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      color: #fff !important;
+      font-size: 1.6rem !important;
+      font-weight: 700 !important;
+      text-align: center !important;
+      padding: 24px !important;
+      box-sizing: border-box !important;
+      flex-shrink: 0 !important;
     }
 
     .about-content {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
+      flex: 1 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 20px !important;
+      align-items: flex-start !important;
     }
 
     .about-content h1 {
-      font-size: 3.5rem;
-      font-weight: 900;
-      margin: 0 0 8px 0;
-      line-height: 1.1;
+      font-size: 3.2rem !important;
+      font-weight: 900 !important;
+      margin: 0 0 8px 0 !important;
+      line-height: 1.1 !important;
+      text-align: left !important;
+      display: block !important;
     }
 
     .about-content p {
-      font-size: 1.05rem;
-      line-height: 1.75;
-      margin: 0;
-      color: inherit;
+      font-size: 0.65rem !important;
+      line-height: 1.75 !important;
+      margin: 0 !important;
+      color: #000 !important;
+      text-align: left !important;
+      display: block !important;
+      font-weight: 400 !important;
+      max-width: 100% !important;
     }
 
     @media (max-width: 768px) {
       .about-layout {
-        flex-direction: column;
-        padding: 24px 5%;
+        flex-direction: column !important;
       }
       .about-image-box {
-        width: 100%;
-        flex: unset;
-        height: 320px;
+        width: 100% !important;
+        flex: unset !important;
+        min-height: 260px !important;
       }
       .about-content h1 {
-        font-size: 2.2rem;
+        font-size: 2rem !important;
       }
     }
   </style>
@@ -110,10 +122,9 @@
 
   <main>
     <div class="about-layout">
-      <!-- Purple box replacing image -->
+
       <div class="about-image-box">About Me</div>
 
-      <!-- Text content -->
       <div class="about-content">
         <h1>Hi there.</h1>
 
@@ -133,6 +144,7 @@
 
         <p>That's what fulfills me. Simple as that.</p>
       </div>
+
     </div>
   </main>
 
